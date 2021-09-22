@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "blocktest",
+  "version": "${version}",
+
+  "name": "BlockEntity",
+  "description": "Test Mod for BlockEntitys",
+  "authors": [
+    "Link4real"
+  ],
+  "contact": {
+    "homepage": "https://github.com/link4real",
+    "sources": "https://github.com/Link4real/"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.example.ExampleMod"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
