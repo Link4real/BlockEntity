@@ -10,20 +10,20 @@
   ],
   "contact": {
     "homepage": "https://github.com/link4real",
-    "sources": "https://github.com/Link4real/"
+    "sources": "https://github.com/Link4real/BlockEntity"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/blocktest/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.link.block.entity.Main"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "blocktest.mixins.json"
   ],
 
   "depends": {
@@ -33,6 +33,6 @@
     "java": ">=16"
   },
   "suggests": {
-    "another-mod": "*"
+    "another-mod": "FoodMod for Fabric by Link4real"
   }
 }
